@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const SkillButtonBackground = styled.div`
   left: ${props=>props.x}px;
   top: ${props=>props.y}px;
-  border: 12px solid ${props=>{
+  border: 7px solid ${props=>{
     switch(props.status){
       case 'locked':
         return 'rgba(92, 92, 92, 0.62)'
