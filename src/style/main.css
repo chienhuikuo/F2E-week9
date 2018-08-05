@@ -60,6 +60,7 @@ body {
 .skill-block {
   margin-top: 100px;
   margin-left: 7%;
+  left: -6%;
   z-index: 3;
 }
 
@@ -109,8 +110,7 @@ body {
 }
 
 .dialog-block {
-  width: 65vw;
-  min-width: 600px;
+  width: 50vw;
   height: auto;
   background: #fff;
   border: 10px solid rgba(0, 147, 255, 0.76);
