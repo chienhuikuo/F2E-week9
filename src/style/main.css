@@ -60,6 +60,33 @@ body {
   margin-left: 7%;
 }
 
+.skillbuttonbg {
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  background: rgba(0, 147, 255, 0.35);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 147, 255, 0.44);
+          box-shadow: 0 3px 6px rgba(0, 147, 255, 0.44);
+  border-radius: 39px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.skillbuttonbg .skillimg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+          transform: translate(-50%, -50%) scale(0.5);
+  -webkit-transition: 0.3s cubic-bezier(0.55, 2.35, 0.71, 0.41);
+  transition: 0.3s cubic-bezier(0.55, 2.35, 0.71, 0.41);
+}
+
+.skillbuttonbg .skillimg:hover {
+  -webkit-transform: translate(-50%, -50%) scale(0.6);
+          transform: translate(-50%, -50%) scale(0.6);
+}
+
 .data {
   display: inline-block;
   float: right;
@@ -77,6 +104,18 @@ body {
   clear: both;
 }
 
+.dialog-block {
+  width: 65vw;
+  min-width: 600px;
+  height: auto;
+  background: #fff;
+  border: 10px solid rgba(0, 147, 255, 0.76);
+  border-radius: 65px;
+  padding: 0 95px 40px 100px;
+  top: 750px;
+  left: 15%;
+}
+
 .dialog-cat {
   position: absolute;
   background: url("../assets/img_monocat@2x.png") left top no-repeat;
@@ -85,6 +124,24 @@ body {
   height: 450px;
   left: -220px;
   top: -70px;
+}
+
+.dialog-label {
+  font-family: 'Noto Sans CJK TC','微軟正黑體',Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  line-height: 52px;
+  font-weight: bold;
+  color: #505050;
+  margin-top: 40px;
+}
+
+.dialog-content {
+  font-family: 'Noto Sans CJK TC','微軟正黑體',Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  line-height: 52px;
+  font-weight: normal;
+  color: #7B7B7B;
+  margin-top: 4px;
 }
 
 .footer {
